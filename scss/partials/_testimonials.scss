@@ -1,0 +1,86 @@
+
+//******************************************************************************
+//***************************TESTIMONIALS***************************************
+.owl-carousel {
+  .owl-stage-outer {
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  } //.owl-stage-outer
+} //owl-carousel
+
+.testimonial-content {
+  text-align: center;
+  padding: 2.5rem;
+  .item {
+    box-shadow: -5px 10px 35px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-left: 2rem;
+    padding: 3.5rem;
+      p {
+        line-height: 2rem;
+      }
+  } //item
+} //testimonial-content
+
+.alumniImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%); //to move the element -50% to x and y axis.
+}
+
+.text {
+  .quote {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1.5rem;
+  } //.quote
+  .name {
+    font-size: 0.8em;
+    font-style: italic;
+  }
+} //text class end
+
+@media (max-width: 767px) {
+  .testimonial-content {
+      .item {
+        box-shadow: -2px 3px 20px -1px rgba(0, 0, 0, 0.3) //change to shadow for smaller screens
+      }
+  } //.testimonial-content
+} //767 mq end
+
+@media (max-width: 450px) {
+  .alumniImg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .text {
+    .quote {
+      width: 25px;
+      height: 25px;
+      margin-bottom: 1rem;
+    } //.quote
+    .name {
+      font-size: 0.7rem;
+    } //.name
+  } //.text
+
+  .testimonial-content {
+    padding: 1rem;
+    .item {
+      padding: 1rem;
+      p {
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+      }
+    } //.item
+  } //.testimonial-content
+
+} //media 350 end

@@ -1,0 +1,169 @@
+//******************************************************************************
+//***************************Basic styles***************************************
+
+$basicBlue: rgb(45, 81, 163); //basic blue
+$lightGray:  rgb(249, 249, 249); //bg gray
+$mainWhite:  rgb(255, 255, 255); //form white bg
+$lighterBlue: rgb(0, 51, 102); //midnight blue
+$pf: ('Ubuntu', sans-serif); //primary Font
+$sf: ('Roboto', sans-serif); //secondary Font
+$os: ('Oswald', sans-serif); // Font
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500|Ubuntu:300,400');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500');
+
+body {
+  background: $mainWhite;
+  color: rgb(102, 102, 102); //gray font color
+  line-height: 1rem;
+  font-family: $pf;
+  font-weight: 300;
+  //margin-top: 70px;
+}
+
+a {
+  transition: 0.5s;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: $basicBlue;
+}
+
+section {
+  padding: 3rem 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-bottom: 1px solid $lighterBlue;
+  margin-bottom: 1rem;
+}
+//section Title Style
+.sectionT {
+  color: rgb(73, 80, 87);
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: $sf;
+  line-height: 3.5rem;
+}
+// smaller section Title Style
+.infoT {
+  font-size: 1.5rem;
+  color: inherit;
+  font-weight: 300;
+  font-family: $sf;
+}
+
+.p-tagline {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+ .container-fluid {
+   padding: 0;
+ }
+
+ .marginT {
+   margin-top: 1.5rem;
+ }
+
+ .marginB {
+   margin-bottom: 1.5rem;
+ }
+ //background classes
+ .backWhite {
+   background: $mainWhite;
+ }
+
+ .backGray {
+   background: $lightGray;
+ }
+
+ .lineHeight {
+    line-height: 1.5rem;
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (min-width: 992px) {
+  body {
+    margin-top: 45px; //"magic" number based on nav's height
+  }
+} //992 end
+
+@media (max-width: 991px) {
+  body {
+    margin-top: 42px; //magic number based on nav's height
+  }
+
+  section{
+    padding: 2.5rem 1rem;
+  }
+
+} //end medioum devises ***991***
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+  section{
+    padding: 0.5rem 0.8rem;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 0.2rem 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .sectionT {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    line-height: 2.5rem;
+  }
+
+  .infoT {
+    font-size: 1rem;
+  }
+
+  .marginT {
+      margin-top: 1rem;
+  }
+
+  .marginB {
+      margin-bottom: 1rem;
+  }
+
+} //end small devices mq ***767***
+
+// Extra small devices (prait phones, less than 576px)
+@media (max-width: 575px) {
+  body {
+    margin-top: 40px; //magic number based on nav's height
+  }
+
+  section{
+    padding: 0.8rem 0.5rem;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .sectionT {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.5rem;
+  }
+
+  .infoT {
+    font-size: 0.5rem;
+  }
+
+} //end extra small MEDIA ***575***

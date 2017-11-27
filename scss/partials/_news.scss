@@ -1,0 +1,65 @@
+//******************************************************************************
+//***************************NEWSLETTER STYLES**********************************
+.newsletterZero {
+    padding: 0;
+    z-index: 5;
+}
+
+#googleMap {
+  z-index: -2;
+}
+
+.newsletter-wrap {
+  padding: 65px;
+  margin-bottom: -45px;
+  background: $basicBlue;
+  color: $mainWhite;
+    h4 {
+      color: $mainWhite;
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-family: $sf;
+   }
+} //.newsletter-wrap
+
+//form styles
+.newsletter {
+  max-width: 600px;
+  margin: 25px auto 0;
+  position: relative;
+    input {
+      border-radius: 10px;
+      height: 50px;
+      padding-left: 20px;
+    } //input
+    .btn {
+      color: #000;
+      padding: 0;
+      position: absolute;
+      top: 1px;
+      right: 20px;
+      height: 50px;
+      width: 50px;
+      font-size: 2rem;
+      background: transparent;
+      transition: .5s;
+        &:hover {
+        color: $basicBlue;
+      } //hover
+    } //.btn end
+} //.newsletter end
+
+@media screen and (max-width:767px){
+  .newsletter-wrap {
+    padding: 70px 15px;
+  }
+} //767 end
+
+@media screen and (max-width:450px){
+  .newsletter-wrap {
+      padding: 40px 15px;
+      h4 {
+        font-size: 1.2rem;
+      }
+  } // .newsletter-wrap  end
+} //media 450 end

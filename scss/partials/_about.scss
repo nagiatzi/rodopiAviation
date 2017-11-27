@@ -1,0 +1,41 @@
+//******************************************************************************
+//***************************ABOUT PART*****************************************
+img {
+  min-height: 100%;
+}
+
+.navMargin {
+  margin-top: 1rem;
+}
+
+.nav-link {
+  cursor: pointer;
+  font-family: $os;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+    &.active {
+      color: $basicBlue !important
+    }
+} //.nav-link
+
+.tab-pane {
+  margin-top: 1.5rem;
+  line-height: 2rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.tab-content {
+  padding-bottom: 1.5rem;
+}
+
+.missionList {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+@media (max-width: 575px) {
+  .nav-link {
+    padding: 0.3rem;
+  }
+}// 575 end
