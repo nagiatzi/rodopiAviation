@@ -1,5 +1,5 @@
 # Description
-This time, after reading and exploring other templates, i opted to deliver a modern webpage about a virtual Aviation Acadedy School, located in my town, Komotini.
+This time, after reading and exploring other templates, i opted to deliver a modern webpage about a virtual aviation acadedy school, located in my town, Komotini.
 
 # Credits:
 
@@ -28,3 +28,6 @@ All images used are free for personal and commercial use. Most of them were crop
  * [Pexels](https://www.pexels.com/)
  * [Pixabay](https://pixabay.com/)
  * [Flickr](https://www.flickr.com/)
+
+ * [Preloader](http://simbyone.com/30-css-page-preload-animations/)
+
