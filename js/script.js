@@ -1,7 +1,7 @@
 //preloader init code
 jQuery(window).load(function(){
-  $('#loading').delay(350).fadeOut('slow');
-  $('body').delay(350).css({'overflow':'visible'});
+  $('#loading').delay(150).fadeOut('slow');
+  $('body').delay(150).css({'overflow':'visible'});
 });
 
 $(document).ready(function(){
@@ -18,7 +18,7 @@ $(document).ready(function(){
       if (target) {
           $('html, body').animate({
               scrollTop: $("#" + target).offset().top
-          }, 700, 'swing', function () {});
+          }, 200, 'swing', function () {});
       }
   }); //prevent page jump end
 
