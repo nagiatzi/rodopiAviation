@@ -1,5 +1,5 @@
 # Description
-This time, after reading and exploring other templates, i opted to deliver a modern [webpage](https://nagiatzi.github.io/rodopiAviation/) about a virtual Aviation Acadedy School, located in my town, Komotini.
+This time, after reading and exploring other templates, i opted to deliver a [webpage](https://nagiatzi.github.io/rodopiAviation/) about a virtual Aviation Acadedy School, located in my town, Komotini.
 
 # Credits:
 
